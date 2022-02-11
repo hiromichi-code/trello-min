@@ -76,6 +76,7 @@ export default function App() {
 				matters={matters}
 				onChangeMatter={onChangeMatter}
 				onClickAdd={onClickAdd}
+				inStockMatters={inStockMatters}
 			/>
 			<div className="container">
 				<InStock
